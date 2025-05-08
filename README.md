@@ -80,10 +80,15 @@ bash
 Kopieren
 Bearbeiten
 📁 rag_project/
+
 ├── notebook.ipynb         # Jupyter-Notebook mit Implementierung
+
 ├── chroma_db/             # Persistente Vektordatenbank
+
 ├── chat_history.json      # Persistenter Chatverlauf
+
 ├── README.md              # Dieses Dokument
+
 ⚙️ Setup & Installation
 Erstelle ein neues Python-Environment:
 
