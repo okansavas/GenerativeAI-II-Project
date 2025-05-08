@@ -53,14 +53,18 @@ Implement one or more of the following to enhance your RAG system:
 - ✅ **Metadata filtering** during document retrieval  
 - ✅ **Multi-Query retrieval** (ask multiple questions or rephrase to get better context)
 
----ERGEBNISSE
+---**ERGEBNISSE**
+
 🔍 Retrieval-Augmented Generation (RAG) System mit LangChain, ChromaDB und Gemini 2
+
 📌 Projektübersicht
+
 Dieses Projekt implementiert ein einfaches, aber leistungsfähiges Retrieval-Augmented Generation (RAG) System, das Informationen aus der Wikipedia-Seite 2025 in Science extrahiert und verwendet, um Fragen kontextbasiert zu beantworten.
 
 Es kombiniert Google Gemini 2.0 Flash mit LangChain, ChromaDB, und nutzt LangSmith für Tracing & Debugging.
 
 🛠️ Funktionen
+
 ✅ Dokumentenindexierung (mit ChromaDB und persistenter Speicherung)
 
 ✅ Chunking von Dokumenten in über 50 Textabschnitte
@@ -76,10 +80,9 @@ Es kombiniert Google Gemini 2.0 Flash mit LangChain, ChromaDB, und nutzt LangSmi
 ✅ Anpassbare Prompts 
 
 📂 Projektstruktur
-bash
-Kopieren
-Bearbeiten
-📁 rag_project/
+
+
+📁 GenerativeAI-II-Project/
 
 ├── notebook.ipynb         # Jupyter-Notebook mit Implementierung
 
@@ -90,26 +93,27 @@ Bearbeiten
 ├── README.md              # Dieses Dokument
 
 ⚙️ Setup & Installation
+
 Erstelle ein neues Python-Environment:
 
-bash
-Kopieren
-Bearbeiten
+
 conda create -n rag_env python=3.10
 conda activate rag_env
+
 Installiere benötigte Pakete:
 
-bash
-Kopieren
-Bearbeiten
+
 pip install -r requirements.txt
+
 Setze deinen Google API Key:
 
 python
-Kopieren
-Bearbeiten
+
+
 os.environ["GOOGLE_API_KEY"] = "DEIN_KEY_HIER"
+
 🚀 Verwendung
+
 Starte das Notebook
 
 Lade die Wikipedia-Seite und indexiere sie
@@ -129,6 +133,7 @@ Multi-Query-Retrieval: Mehrere automatisch generierte Anfragen verbessern die Ab
 LangSmith Logging: Mit tracer Callback zur besseren Nachverfolgung
 
 📎 Abhängigkeiten
+
 langchain
 
 chromadb
